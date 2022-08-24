@@ -1,4 +1,5 @@
 import { Flex, Box, Spacer, Link } from '@chakra-ui/react'
+import { DarkModeSwitch } from './DarkModeSwitch'
 
 function Navbar() {
     return (
@@ -26,6 +27,7 @@ function Navbar() {
                 <Link href='/contact' passHref pr='25px'>
                     Contact Us
                 </Link>
+                <DarkModeSwitch  />
             </Box>
         </Flex>
         )
