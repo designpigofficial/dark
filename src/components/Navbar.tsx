@@ -1,14 +1,16 @@
 import { Flex, Box, Spacer, Link } from '@chakra-ui/react'
 import { DarkModeSwitch } from './DarkModeSwitch'
+import Drawer from '../components/Drawer'
+import React from 'react'
 
-function Navbar() {
+const Navbar = () => {
     return (
-        <Flex justify='spaceBetween' align='center' mx='auto' maxW='80%' height='80px'>
+        <Flex justify='spaceBetween' align='center' mx='auto' maxW='80%' height='80px' zIndex={20}>
             <Box>
-                Logo
+                Rogue Solar
             </Box>
             <Spacer  />
-            <Box>
+            <Box display={["none", "none", "none", "flex"]}>
                 <Link href='/' passHref pr='25px'>
                     Home
                 </Link>
@@ -29,8 +31,8 @@ function Navbar() {
                 </Link>
                 <DarkModeSwitch  />
             </Box>
+            <Drawer  />
         </Flex>
         )
 }
-
 export default Navbar

@@ -37,6 +37,8 @@
     "pretty-quick": "3.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.4.0",
+    "react-slick": "^0.29.0",
     "typescript": "4.3.2"
   },
   "husky": {
@@ -47,5 +49,8 @@
   "volta": {
     "node": "14.15.3",
     "yarn": "1.22.10"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.10"
   }
 }

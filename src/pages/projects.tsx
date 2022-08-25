@@ -2,7 +2,7 @@ import { Flex } from '@chakra-ui/react'
 
 function Projects() {
     return (
-        <Flex justify='spaceBetween' align='center' mx='auto' maxW='80%' height='80px'>
+        <Flex justify='center' align='center' mx='auto' maxW='80%' height='100vh'>
 
         <p>projects page</p>
 

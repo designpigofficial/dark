@@ -11,7 +11,7 @@ useState("none");
   return (
     <Switch
     pl="25px"
-    color="green"
+    color="blue"
     isChecked={isDark}
     onChange={toggleColorMode}
   />
