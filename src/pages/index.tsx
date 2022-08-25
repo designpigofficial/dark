@@ -2,7 +2,7 @@ import {
   Container,
   VStack,
   Box,
-} from '@chakra-ui/react'
+} from "@chakra-ui/react"
 import Slider from '../components/Carousel'
 
 import AboutPartial from '../components/AboutPartial'

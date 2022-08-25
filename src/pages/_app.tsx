@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { ChakraProvider, ColorModeScript } from '@chakra-ui/react'
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react"
 import type { AppProps } from 'next/app'
 import Layout from '../components/Layout'
 

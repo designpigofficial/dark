@@ -1,4 +1,4 @@
-import { Flex, Box, Spacer, Link } from '@chakra-ui/react'
+import { Flex, Box, Spacer, Link } from "@chakra-ui/react"
 import { DarkModeSwitch } from './DarkModeSwitch'
 import Drawer from '../components/Drawer'
 import React from 'react'
@@ -11,7 +11,7 @@ const Navbar = () => {
             </Box>
             <Spacer  />
             <Box display={["none", "none", "none", "flex"]}>
-                <Link href='/' passHref pr='25px'>
+                <Link href='/' pr='25px'>
                     Home
                 </Link>
                 <Link href='/about' passHref pr='25px'>

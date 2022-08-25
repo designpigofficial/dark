@@ -16,7 +16,7 @@ import {
     useDisclosure,
     Spacer,
     Stack,
-    } from '@chakra-ui/react'
+    } from "@chakra-ui/react"
 
     import { DarkModeSwitch } from './DarkModeSwitch'
 
